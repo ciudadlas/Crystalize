@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Template Name</key>
+	<string>Starter</string>
+	<key>Template Version</key>
+	<integer>1</integer>
+	<key>Placeholder Name</key>
+	<string>New Gem</string>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>Question</key>
+			<string>What&apos;s it called?</string>
+			<key>Placeholder</key>
+			<string>The name of our idea.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What&apos;s the PR headline?</string>
+			<key>Placeholder</key>
+			<string>If a newspaper wrote about it, this would be the headline. Think sexy, sensational.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What does it do?</string>
+			<key>Placeholder</key>
+			<string>A tangible description, no longer than one sentence.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Who is it for?</string>
+			<key>Placeholder</key>
+			<string>Get specific. Again, only one sentence.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What makes it unique?</string>
+			<key>Placeholder</key>
+			<string>This is what sets it apart from anything else on earth.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How does it work?</string>
+			<key>Placeholder</key>
+			<string>Very clear accounting of the mechanics. Step through the process of using it, including the payoff for the user.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>Why are we doing it?</string>
+			<key>Placeholder</key>
+			<string>Our motivation: fun, fame, fortune, philanthropy...</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>How are we promoting it?</string>
+			<key>Placeholder</key>
+			<string>A mini-marketing plan, including free and paid media. For word of mouth, list the message friends tell each other.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What&apos;s the potential size of the market?</string>
+			<key>Placeholder</key>
+			<string>If everybody who could use our product used it, we&apos;d make this many sales.</string>
+		</dict>
+		<dict>
+			<key>Question</key>
+			<string>What are the risks?</string>
+			<key>Placeholder</key>
+			<string>A list of competitors and things that could go wrong in a worst-case scenario.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

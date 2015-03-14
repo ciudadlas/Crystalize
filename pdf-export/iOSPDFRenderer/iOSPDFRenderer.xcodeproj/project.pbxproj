@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7595253B15D6B39800455881 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7595253A15D6B39800455881 /* MessageUI.framework */; };
+		7595253E15D6B8A300455881 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7595253D15D6B8A300455881 /* icon.png */; };
+		EC726DC1147A43BD00F75272 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC726DC0147A43BD00F75272 /* UIKit.framework */; };
+		EC726DC3147A43BD00F75272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC726DC2147A43BD00F75272 /* Foundation.framework */; };
+		EC726DC5147A43BD00F75272 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC726DC4147A43BD00F75272 /* CoreGraphics.framework */; };
+		EC726DCB147A43BD00F75272 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC726DC9147A43BD00F75272 /* InfoPlist.strings */; };
+		EC726DCD147A43BD00F75272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC726DCC147A43BD00F75272 /* main.m */; };
+		EC726DD1147A43BD00F75272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC726DD0147A43BD00F75272 /* AppDelegate.m */; };
+		EC726DD4147A43BD00F75272 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC726DD2147A43BD00F75272 /* MainStoryboard.storyboard */; };
+		EC726DD7147A43BD00F75272 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC726DD6147A43BD00F75272 /* ViewController.m */; };
+		EC726DDF147A483100F75272 /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC726DDE147A483100F75272 /* PDFViewController.m */; };
+		EC726DE1147A4C9800F75272 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC726DE0147A4C9800F75272 /* CoreText.framework */; };
+		ECA0D0BF1490D36B00C3B620 /* ray-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA0D0BE1490D36B00C3B620 /* ray-logo.png */; };
+		ECA0D0C61490D88B00C3B620 /* InvoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECA0D0C51490D88B00C3B620 /* InvoiceView.xib */; };
+		ECA0D0C71490E65800C3B620 /* PDFRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6BC26B147E4DBF00E60983 /* PDFRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7595253A15D6B39800455881 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7595253D15D6B8A300455881 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EC6BC26A147E4DBF00E60983 /* PDFRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PDFRenderer.h; path = iOSPDFRenderer/PDFRenderer.h; sourceTree = "<group>"; };
+		EC6BC26B147E4DBF00E60983 /* PDFRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PDFRenderer.m; path = iOSPDFRenderer/PDFRenderer.m; sourceTree = "<group>"; };
+		EC726DBC147A43BD00F75272 /* iOSPDFRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPDFRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC726DC0147A43BD00F75272 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC726DC2147A43BD00F75272 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC726DC4147A43BD00F75272 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC726DC8147A43BD00F75272 /* iOSPDFRenderer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSPDFRenderer-Info.plist"; sourceTree = "<group>"; };
+		EC726DCA147A43BD00F75272 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC726DCC147A43BD00F75272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC726DCE147A43BD00F75272 /* iOSPDFRenderer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSPDFRenderer-Prefix.pch"; sourceTree = "<group>"; };
+		EC726DCF147A43BD00F75272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC726DD0147A43BD00F75272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC726DD3147A43BD00F75272 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EC726DD5147A43BD00F75272 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC726DD6147A43BD00F75272 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC726DDD147A483100F75272 /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		EC726DDE147A483100F75272 /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		EC726DE0147A4C9800F75272 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		ECA0D0BE1490D36B00C3B620 /* ray-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ray-logo.png"; path = "iOSPDFRenderer/ray-logo.png"; sourceTree = "<group>"; };
+		ECA0D0C51490D88B00C3B620 /* InvoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvoiceView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC726DB9147A43BD00F75272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7595253B15D6B39800455881 /* MessageUI.framework in Frameworks */,
+				EC726DE1147A4C9800F75272 /* CoreText.framework in Frameworks */,
+				EC726DC1147A43BD00F75272 /* UIKit.framework in Frameworks */,
+				EC726DC3147A43BD00F75272 /* Foundation.framework in Frameworks */,
+				EC726DC5147A43BD00F75272 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC726DB1147A43BD00F75272 = {
+			isa = PBXGroup;
+			children = (
+				7595253D15D6B8A300455881 /* icon.png */,
+				7595253A15D6B39800455881 /* MessageUI.framework */,
+				ECA0D0C51490D88B00C3B620 /* InvoiceView.xib */,
+				ECA0D0BE1490D36B00C3B620 /* ray-logo.png */,
+				EC6BC26A147E4DBF00E60983 /* PDFRenderer.h */,
+				EC6BC26B147E4DBF00E60983 /* PDFRenderer.m */,
+				EC726DE0147A4C9800F75272 /* CoreText.framework */,
+				EC726DDD147A483100F75272 /* PDFViewController.h */,
+				EC726DDE147A483100F75272 /* PDFViewController.m */,
+				EC726DC6147A43BD00F75272 /* iOSPDFRenderer */,
+				EC726DBF147A43BD00F75272 /* Frameworks */,
+				EC726DBD147A43BD00F75272 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC726DBD147A43BD00F75272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC726DBC147A43BD00F75272 /* iOSPDFRenderer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC726DBF147A43BD00F75272 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC726DC0147A43BD00F75272 /* UIKit.framework */,
+				EC726DC2147A43BD00F75272 /* Foundation.framework */,
+				EC726DC4147A43BD00F75272 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC726DC6147A43BD00F75272 /* iOSPDFRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				EC726DCF147A43BD00F75272 /* AppDelegate.h */,
+				EC726DD0147A43BD00F75272 /* AppDelegate.m */,
+				EC726DD2147A43BD00F75272 /* MainStoryboard.storyboard */,
+				EC726DD5147A43BD00F75272 /* ViewController.h */,
+				EC726DD6147A43BD00F75272 /* ViewController.m */,
+				EC726DC7147A43BD00F75272 /* Supporting Files */,
+			);
+			path = iOSPDFRenderer;
+			sourceTree = "<group>";
+		};
+		EC726DC7147A43BD00F75272 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC726DC8147A43BD00F75272 /* iOSPDFRenderer-Info.plist */,
+				EC726DC9147A43BD00F75272 /* InfoPlist.strings */,
+				EC726DCC147A43BD00F75272 /* main.m */,
+				EC726DCE147A43BD00F75272 /* iOSPDFRenderer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC726DBB147A43BD00F75272 /* iOSPDFRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC726DDA147A43BD00F75272 /* Build configuration list for PBXNativeTarget "iOSPDFRenderer" */;
+			buildPhases = (
+				EC726DB8147A43BD00F75272 /* Sources */,
+				EC726DB9147A43BD00F75272 /* Frameworks */,
+				EC726DBA147A43BD00F75272 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPDFRenderer;
+			productName = iOSPDFRenderer;
+			productReference = EC726DBC147A43BD00F75272 /* iOSPDFRenderer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC726DB3147A43BD00F75272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EC726DB6147A43BD00F75272 /* Build configuration list for PBXProject "iOSPDFRenderer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC726DB1147A43BD00F75272;
+			productRefGroup = EC726DBD147A43BD00F75272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC726DBB147A43BD00F75272 /* iOSPDFRenderer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC726DBA147A43BD00F75272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC726DCB147A43BD00F75272 /* InfoPlist.strings in Resources */,
+				EC726DD4147A43BD00F75272 /* MainStoryboard.storyboard in Resources */,
+				ECA0D0BF1490D36B00C3B620 /* ray-logo.png in Resources */,
+				ECA0D0C61490D88B00C3B620 /* InvoiceView.xib in Resources */,
+				7595253E15D6B8A300455881 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC726DB8147A43BD00F75272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC726DCD147A43BD00F75272 /* main.m in Sources */,
+				EC726DD1147A43BD00F75272 /* AppDelegate.m in Sources */,
+				EC726DD7147A43BD00F75272 /* ViewController.m in Sources */,
+				EC726DDF147A483100F75272 /* PDFViewController.m in Sources */,
+				ECA0D0C71490E65800C3B620 /* PDFRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC726DC9147A43BD00F75272 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC726DCA147A43BD00F75272 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC726DD2147A43BD00F75272 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC726DD3147A43BD00F75272 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC726DD8147A43BD00F75272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC726DD9147A43BD00F75272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC726DDB147A43BD00F75272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPDFRenderer/iOSPDFRenderer-Prefix.pch";
+				INFOPLIST_FILE = "iOSPDFRenderer/iOSPDFRenderer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC726DDC147A43BD00F75272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSPDFRenderer/iOSPDFRenderer-Prefix.pch";
+				INFOPLIST_FILE = "iOSPDFRenderer/iOSPDFRenderer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC726DB6147A43BD00F75272 /* Build configuration list for PBXProject "iOSPDFRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC726DD8147A43BD00F75272 /* Debug */,
+				EC726DD9147A43BD00F75272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC726DDA147A43BD00F75272 /* Build configuration list for PBXNativeTarget "iOSPDFRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC726DDB147A43BD00F75272 /* Debug */,
+				EC726DDC147A43BD00F75272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC726DB3147A43BD00F75272 /* Project object */;
+}
